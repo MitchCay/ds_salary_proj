@@ -8,7 +8,7 @@ Created on Tue Aug  4 18:24:55 2020
 import glassdoor_scraper as gs
 import pandas as pd
 
-path = "C:/Users/caywo/Documents/ds_physics_related_proj"
+path = "C:/Users/caywo/Documents/ds_salary_proj"
 
 df = gs.get_jobs('physics', 1500, False, path+"/chromedriver", 15)
 
